@@ -1,0 +1,59 @@
+.actionable-container {
+    margin: 120px auto 180px auto;
+    max-width: 711px;
+    background-color:white;
+    height: 110px;
+    border: 1px solid #818181;
+    border-radius: 2px;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+h1, body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size:36px;
+}
+body {
+  background: url('background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height:100%;
+  font-family: 'Oxygen', sans-serif;
+}
+.button {
+  text-decoration:none;
+  font-size: 14px;
+  border: solid 1px black;
+  padding: 2px 11px;
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+}
+.img-thumbnail {
+  margin: 10px;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#flickr-query {
+  font-size: 12px;
+  border: 1px solid #818181;
+  border-radius: 2px;
+}
+#photos {
+  margin-top: 50px;
+}
